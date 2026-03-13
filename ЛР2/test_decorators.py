@@ -1,9 +1,7 @@
 import json
 import unittest
 
-import yaml  # Требует установки: pip install pyyaml
-
-# Импортируем классы из нашего основного файла
+import yaml
 from data_providers import (
     CSVDecorator,
     JSONDecorator,
